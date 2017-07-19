@@ -1,0 +1,37 @@
+[CMD_HELP_COMMAND_LIST]
+Verfügbare Befehle: (Befehle, welche mit einem `*` markiert sind, können nur in Servern verwendet werden.)
+```ldif
+{{ commandList }}
+```Verwende `{{ usage }}` oder `{{ mentionUsage }}` für mehr Informationen.
+
+[CMD_HELP_UNKNOWN_COMMAND]
+Es wurde entweder kein Befehl mit diesem Namen gefunden oder du bist nicht berechtigt diesen zu sehen.
+
+[CMD_HELP_SERVERONLY]
+[Server-Befehl]
+
+[CMD_HELP_OWNERONLY]
+[Besitzer-Befehl]
+
+[CMD_HELP_ALIASES]
+{{! args.aliases.split(',').length > 1 ? 'Aliasse' : 'Alias' !}}: {{ aliases }}
+
+[CMD_HELP_CODEBLOCK]
+```ldif
+{{ serverOnly ?}}
+{{ ownerOnly ?}}
+Befehl: {{ commandName }}
+Beschreibung: {{ desc }}
+{{ aliasText ?}}
+Gebrauch: {{ usage }}
+{{ info ?}}
+```
+
+[CMD_HELP_REPLY_CMD]
+ich habe dir eine Nachricht mit Hilfe zu den Befehlen gesendet.
+
+[CMD_HELP_REPLY_ALL]
+ich habe dir eine Liste aller Befehle gesendet
+
+[CMD_HELP_REPLY_FAIL]
+ich konnte dir keine Nachricht senden. Blockierst du vielleicht private Nachrichten?

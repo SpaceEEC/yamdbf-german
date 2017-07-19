@@ -1,0 +1,23 @@
+[CMD_LIMIT_ERR_UNKNOWN_COMMAND]
+Konnte keinen Befehl mit dem Namen `{{ commandName }}` finden.
+
+[CMD_LIMIT_ERR_INVALID_GROUP]
+Die `base` Gruppe kann nicht deaktiviert werden.
+
+[CMD_LIMIT_ERR_ALREADY_LIMITER]
+## terrible translation, really terrible
+Die Rolle `{{ roleName }}` ist bereits ein "Begrenzer": `{{ commandName }}`.
+
+[CMD_LIMIT_ERR_INVALID_ROLE]
+Konnte {{!
+	args.invalidRoles.split(',').length > 1 ? 'Rollen' : 'Rolle'
+!}}: {{ invalidRoles }} nicht finden.
+
+[CMD_LIMIT_ERR_NO_ROLES]
+## what exactly is this message?
+Konnte keine Rollen zu diesem Befehl hinzufügen.
+
+[CMD_LIMIT_SUCCESS]
+Habe erfolgreich die {{!
+	args.roles.split(',').length > 1 ? 'Rollen' : 'Rolle'
+!}}: {{ roles }} zu den "Begrenzern" des `{{ commandName }}` Befehls hinzugefügt.

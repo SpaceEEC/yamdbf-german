@@ -1,0 +1,25 @@
+[CMD_EVAL_ERR_NOCODE]
+**FEHLER:**
+```xl
+Kein Code zum evaluieren.
+```
+
+[CMD_EVAL_RESULT]
+**CODE:**
+```js
+{{ code }}
+```
+**RESULTAT:**
+```xl
+{{ result }}
+```
+
+[CMD_EVAL_ERROR]
+**CODE:**
+```js
+{{ code }}
+```
+**FEHLER:**
+```xl
+{{ error }}
+```

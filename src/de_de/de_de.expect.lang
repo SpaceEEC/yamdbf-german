@@ -1,0 +1,15 @@
+[EXPECT_ERR_MISSING_VALUE]
+Fehlender oder null Wert für: `{{ name }}`{{!
+	args.type.split(', ').length > 1
+		? `\nErwartete einen aus: ${args.type}`
+		: `, erwartete ${args.type}`
+!}}
+Gebrauch: `{{ usage }}`
+
+[EXPECT_ERR_INVALID_OPTION]
+In Argument `{{ name }}`: `{{ arg }}` ist keine gültige Option.
+Gebrauch: `{{ usage }}`
+Gültige Optionen für `{{ name }}`: {{ type }}
+
+[EXPECT_ERR_EXPECTED_TYPE]
+In Argument `{{ name }}`: erwartete `{{ expected }}`, erhielt `{{ type }}`

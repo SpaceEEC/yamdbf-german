@@ -1,0 +1,40 @@
+[DISPATCHER_ERR_RATELIMIT_EXCEED_GLOBAL]
+Du hast zu viele Befehle in zu kurzer Zeit verwendet, warte bitte **{{ time }}** bevor du es erneut versuchst.
+
+[DISPATCHER_ERR_RATELIMIT_EXCEED]
+Du hast diesen Befehl zu oft in zu kurzer Zeit verwendet, warte bitte **{{ time }}** bevor du es erneut versuchst.
+
+[DISPATCHER_ERR_UNKNOWN_COMMAND]
+Ich konnte deiner Nachricht keinen Befehl zuordnern.
+Versuche über den "help" Befehl eine Liste aller Befehle zu bekommen.
+
+[DISPATCHER_ERR_GUILD_ONLY]
+Dieser Befehl kann nur in Servern verwendet werden.
+
+[DISPATCHER_ERR_MISSING_CLIENT_PERMISSIONS]
+**Ich habe nicht alle benötigte Rechte um diesen Befehl in diesem Channel auszuführen.
+Mir fehl{{!
+	args.missing.split(', ').length > 1 ? 'en' : 't'
+!}}:**
+```css
+{{ missing }}
+```
+
+[DISPATCHER_ERR_MISSING_CALLER_PERMISSIONS]
+**Du hast nicht alle benötigte Rechte um diesen Befehl auszuführen.
+Dir fehl{{!
+	args.missing.split(', ').length > 1 ? 'en' : 't'
+!}}:**
+```css
+{{ missing }}
+```
+
+[DISPATCHER_ERR_MISSING_ROLES]
+**Du benötigst{{!
+	args.roles.split(', ').length > 1
+		? 'eine der folgenden Rollen, um diesen Befehl auszuführen'
+		: 'um diesen Befehl auszuführen, die Rolle'
+!}} :**
+```css
+{{ roles }}
+```

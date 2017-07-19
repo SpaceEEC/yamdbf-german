@@ -1,0 +1,9 @@
+[CMD_RELOAD_ERR_UNKNOWN_COMMAND]
+Konnte den Befehl "{{ commandName }}" nicht finden.
+
+[CMD_RELOAD_SUCCESS]
+{{!
+	args.commandName ? 
+		`Befehl "${args.commandName}"` :
+		'Befehle'
+!}} reloaded. ({{ time }} ms)

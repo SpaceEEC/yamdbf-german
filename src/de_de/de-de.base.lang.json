@@ -1,0 +1,96 @@
+{
+	"blacklist": {
+		"de_de": {
+			"desc": "Setzt einen Nutzer auf die globale Blacklist, wodurch dieser Nutzer keine Befehle mehr verwenden kann",
+			"usage": "<prefix>blacklist <nutzer> ['global']",
+			"info": "Falls global, wird statt der serverweiten Blacklist die globale verwendet."
+		}
+	},
+	"whitelist": {
+		"de_de": {
+			"desc": "Entfernt einen Nutzer von der Blacklist, wodurch dieser wieder Befehle verwenden kann",
+			"usage": "<prefix>whitelist <nutzer> ['global']"
+		}
+	},
+	"eval": {
+		"de_de": {
+			"desc": "Evaluiert den beiligenden Javascript Code",
+			"usage": "<prefix>eval <...code>"
+		}
+	},
+	"eval:ts": {
+		"de_de": {
+			"desc": "Evaluiert den beiligenden Typescript Code",
+			"usage": "<prefix>eval:ts <...code>",
+			"info": "Läuft sehr langsam, da vor dem Kompilierun nach Fehlern gesucht wird. Falls Typescript nicht installiert ist wird der Code als Javascript Code behandelt und die Fehlersuche, sowie das Kompilieren wird übersprungen"
+		}
+	},
+	"clearlimit": {
+		"de_de": {
+			"desc": "Entfernt vorhandene Rollenbeschränkungen von einem Befehl",
+			"usage": "<prefix>clearlimit <befehl>"
+		}
+	},
+	"disablegroup": {
+		"de_de": {
+			"desc": "Deaktiviert eine Befehlsgruppe",
+			"usage": "<prefix>disablegroup <gruppe>",
+			"info": "Deaktiviert eine Befehlsgruppe, wodurch diese Befehle nicht mehr auf diesem Server verwendet werden können."
+		}
+	},
+	"enablegroup": {
+		"de_de": {
+			"desc": "Aktiviert eine Befehlsgruppe",
+			"usage": "<prefix>enablegroup <gruppe>",
+			"info": "Aktiviert eine Gruppe von Befehle, wodurch diese Befehle wieder auf diesem Server verwendet werden können."
+		}
+	},
+	"limit": {
+		"de_de": {
+			"desc": "Beschränkt einen Befehl auf die beiligenden Rollen",
+			"usage": "<prefix>limit <befehl>, <rollennamen, ...>",
+			"info": "Das Komma nach dem Namen des Befehls -- vor der Liste der Rollennamen -- ist zwingend erforderlich."
+		}
+	},
+	"listgroups": {
+		"de_de": {
+			"desc": "Listet alle Gruppen von Befehlen und deren Status auf",
+			"usage": "<prefix>listgroups",
+			"info": "Ein '*' signalisiert, dass die Gruppe deaktiviert ist."
+		}
+	},
+	"help": {
+		"de_de": {
+			"desc": "Listet Informationen zu den Befehlen dieses Bots auf",
+			"usage": "<prefix>help [befehl]",
+			"info": "Verwendet private Nachrichten um die Channel auf dem server nicht mit gigantischen Nachrichten zu überfluten."
+		}
+	},
+	"ping": {
+		"de_de": {
+			"desc": "Pong!",
+			"usage": "<prefix>ping",
+			"info": "Peng!"
+		}
+	},
+	"reload": {
+		"de_de": {
+			"desc": "Lädt einen, oder alle, Befehle neu",
+			"usage": "<prefix>reload [befehl]",
+			"info": "Falls ein Name oder Alias eines Befehls angegeben ist, wird dieser neu geladen. Andernfalls werden alle Befehle neu geladen."
+		}
+	},
+	"setlang": {
+		"de_de": {
+			"desc": "Listed alle verfügbaren Sprachen auf, oder legt eine neue fest",
+			"usage": "<prefix>setlang [sprache]"
+		}
+	},
+	"setprefix": {
+		"de_de": {
+			"desc": "Ruft den aktuellen Prefix ab, oder legt diesen fest.",
+			"usage": "<prefix>setprefix [prefix]",
+			"info": "Prefixe müssen 1-10 Zeichen lang sein und dürfen keine Backslashes oder Backticks beinhalten. Nutze \"clear\" um den Prefix komplett zu entfernen, wodurch Befehle ohne einen Prefix verwendet werden können."
+		}
+	}
+}

@@ -1,0 +1,19 @@
+[CMD_PREFIX_CURRENT]
+{{!
+	args.prefix ?
+		`Der aktuelle Prefix ist: \`${args.prefix}\`` :
+		'Im moment ist kein Prefix festgelegt.'
+!}}
+
+[CMD_PREFIX_ERR_CHAR_LIMIT]
+Prefixe dürfen nur bis zu 10 Zeichen lang sein.
+
+[CMD_PREFIX_ERR_INVALID_CHARS]
+Prefixe dürfen keine Backslashes oder Backticks beinhalten.
+
+[CMD_PREFIX_SUCCESS]
+{{!
+	args.prefix === '' ?
+		'Der Prefix wurde entfernt.' :
+		`Der Prefix ist von nun an \`${args.prefix}\``
+!}}

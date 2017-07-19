@@ -1,0 +1,5 @@
+[CMD_CLEARLIMIT_UNKNOWN_COMMAND]
+Konnte keinen Befehl mit dem Namen `{{ commandName }}` finden.
+
+[CMD_CLEARLIMIT_SUCCESS]
+Die Rollenbeschränkung, für den Befehl `{{ commandName }}`, wurden erfolgreich aufgehoben.

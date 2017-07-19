@@ -1,0 +1,8 @@
+[CMD_ENABLEGROUP_ERR_NOEXIST]
+Konnte die Befehlsgruppe "{{ group }}" nicht finden.
+
+[CMD_ENABLEGROUP_ERR_ENABLED]
+Die Befehlsgruppe "{{ group }}" ist bereits aktiviert.
+
+[CMD_ENABLEGROUP_SUCCESS]
+**Habe die Befehlsgruppe "{{ group }}" aktiviert.**

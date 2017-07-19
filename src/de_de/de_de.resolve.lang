@@ -1,0 +1,71 @@
+[RESOLVE_TYPE]
+{{!
+	switch (args.type)
+	{
+		case 'User': return 'nutzer';
+		case 'Member': return 'member';
+		case 'BannedUser': return 'gebannter nutzer';
+		case 'Channel': return 'channel';
+		case 'Role': return 'rolle';
+		default: return;
+	}
+!}}
+
+[RESOLVE_ERR_RESOLVE_NUMBER]
+In Argument `{{ name }}`: `{{ arg }}` konnte nicht zu einer Nummer aufgelöst werden.
+Gebrauch: `{{ usage }}`
+
+[RESOLVE_ERR_RESOLVE_DURATION]
+In Argument `{{ name }}`: `{{ arg }}` konnte nicht zu einer Dauer umgewandelt werden.
+Gebrauch: `{{ usage }}`
+Ein Beispiel für ein Dauer Argument: `10m`, `2h`, `1.5d`
+
+[RESOLVE_ERR_RESOLVE_TYPE_ID]
+In Argument `{{ name }}`: Konnte keine(n) {{! res('RESOLVE_TYPE', args) !}} mit der ID `{{ arg }}` finden.
+Gebrauch: `{{ usage }}`
+
+[RESOLVE_ERR_RESOLVE_TYPE_TEXT]
+In Argument `{{ name }}`: Konnte keine(n) {{! res('RESOLVE_TYPE') !}} mit dem folgendem Text finden: `{{ arg }}`
+Gebrauch: `{{ usage }}`
+
+[RESOLVE_ERR_MULTIPLE_USER_RESULTS]
+Habe mehrere potentielle Nutzer für das Argument `{{ name }}` gefunden:
+{{!
+	const users = args.users.split(', ');
+	if (users.length > 5)
+	{
+		const slice = users.slice(0, 5);
+		return `${slice.join(', ')}, und ${users.length - slice.length} weitere.`
+	}
+	else return users.join(', ');
+!}}
+Formuliere deine Suche genauer oder nutze eine ID bzw. Erwähnung.
+Gebrauch: `{{ usage }}`
+
+[RESOLVE_ERR_MULTIPLE_CHANNEL_RESULTS]
+Habe mehrere potenetielle Channel für `{{ name }}` gefunden:
+{{!
+	const channels = args.channels.split(', ');
+	if (channels.length > 5)
+	{
+		const slice = channels.slice(0, 5);
+		return `${slice.join(', ')}, und ${channels.length - slice.length} weitere.`
+	}
+	else return channels.join(', ');
+!}}
+Formuliere deine Suche genauer oder nutze eine ID bzw. Erwähnung.
+Gebrauch: `{{ usage }}`
+
+[RESOLVE_ERR_MULTIPLE_ROLE_RESULTS]
+Habe mehrere potenetielle Rollen für `{{ name }}` gefunden:
+{{!
+	const roles = args.roles.split(', ');
+	if (roles.length > 5)
+	{
+		const slice = roles.slice(0, 5);
+		return `${slice.join(', ')}, und ${roles.length - slice.length} weitere.`
+	}
+	else return roles.join(', ');
+!}}
+Formuliere deine Suche genauer oder nutze eine ID bzw. Erwähnung.
+Gebrauch: `{{ usage }}`

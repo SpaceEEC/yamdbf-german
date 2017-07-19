@@ -1,0 +1,23 @@
+[CMD_BLACKLIST_ERR_NOSELF]
+Du kannst dich nicht selber zur Blacklist hinzufügen.
+
+[CMD_BLACKLIST_ERR_NOBOT]
+Bots können keine Befehle ausführen und somit auch nicht auf die Blacklist gesetzt werden.
+
+[CMD_BLACKLIST_ERR_OWNERONLY]
+Nur der/die Besitzer können Nutzer auf die globale Blacklist setzen.
+
+[CMD_BLACKLIST_ERR_ALREADYGLOBAL]
+Dieser nutzer ist bereits auf der globalen Blacklist.
+
+[CMD_BLACKLIST_ERR_BADTARGET]
+Du kannst diesen Nutzer nicht auf die Blacklist setzen.
+
+[CMD_BLACKLIST_ERR_ALREADYBLACKLISTED]
+Dieser Nutzer befindet sich bereits auf der globalen Blacklist.
+
+[CMD_BLACKLIST_GLOBALSUCCESS]
+Der Nutzer {{ user }} wurde auf die globale Blacklist gesetzt.
+
+[CMD_BLACKLIST_SUCCESS]
+Der Nutzer {{ user }} wurde auf die serverweite Blacklist gesetzt.
