@@ -3,7 +3,7 @@ import { Client, IPlugin, Lang, Logger, Plugin } from 'yamdbf';
 
 export class GermanPlugin extends Plugin implements IPlugin
 {
-	public readonly name: string = 'German';
+	public readonly name: string = 'lang-german';
 
 	private readonly _client: Client;
 

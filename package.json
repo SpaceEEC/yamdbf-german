@@ -1,5 +1,5 @@
 {
-  "name": "yamdbf-german",
+  "name": "yamdbf-lang-german",
   "version": "1.0.0",
   "description": "German localization for the yamdbf-framework",
   "main": "bin/index",
@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SpaceEEC/yamdbf-german.git"
+    "url": "git+https://github.com/SpaceEEC/yamdbf-lang-german.git"
   },
   "bugs": {
-    "url": "https://github.com/SpaceEEC/yamdbf-german/issues"
+    "url": "https://github.com/SpaceEEC/yamdbf-lang-german/issues"
   },
-  "homepage": "https://github.com/SpaceEEC/yamdbf-german#readme",
+  "homepage": "https://github.com/SpaceEEC/yamdbf-lang-german#readme",
   "keywords": [
     "discord",
     "yamdbf",
@@ -37,7 +37,7 @@
     "gulp-sourcemaps": "^2.6.0",
     "gulp-typescript": "^3.2.1",
     "tslint": "^5.5.0",
-    "typescript": "^2.4.1",
+    "typescript": "^2.4.2",
     "yamdbf": "github:zajrik/yamdbf"
   },
   "buildDependencies": [
