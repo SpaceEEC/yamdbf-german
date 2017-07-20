@@ -1,4 +1,4 @@
-# yamdbf-german
+# yamdbf-lang-german
 YAMDBF plugin which adds a German localization.
 
 # Installing
