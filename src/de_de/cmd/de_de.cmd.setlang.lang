@@ -9,4 +9,4 @@ Verfügbare Sprachen: (Die mit einem `*` markierte Sprache ist die aktuelle Spra
 Das ist keine gültige Sprache!
 
 [CMD_SETLANG_SUCCESS]
-Der Server verwendet von nun an die folgende Sprache: `{{ lang }}`
+Dieser Server verwendet von nun an die folgende Sprache: `{{ lang }}`

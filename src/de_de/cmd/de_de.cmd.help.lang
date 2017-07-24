@@ -28,7 +28,7 @@ Gebrauch: {{ usage }}
 ```
 
 [CMD_HELP_REPLY_CMD]
-ich habe dir eine Nachricht mit Hilfe zu den Befehlen gesendet.
+ich habe dir eine Nachricht mit einer Liste aller Befehlen gesendet.
 
 [CMD_HELP_REPLY_ALL]
 ich habe dir eine Liste aller Befehle gesendet

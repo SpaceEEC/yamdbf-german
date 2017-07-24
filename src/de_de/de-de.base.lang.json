@@ -63,7 +63,7 @@
 		"de_de": {
 			"desc": "Listet Informationen zu den Befehlen dieses Bots auf",
 			"usage": "<prefix>help [befehl]",
-			"info": "Verwendet private Nachrichten um die Channel auf dem server nicht mit gigantischen Nachrichten zu überfluten."
+			"info": "Verwendet private Nachrichten um die Channel auf dem Server nicht mit endlos vielen Nachrichten zu überfluten."
 		}
 	},
 	"ping": {
