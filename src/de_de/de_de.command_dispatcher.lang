@@ -30,11 +30,11 @@ Dir fehl{{!
 ```
 
 [DISPATCHER_ERR_MISSING_ROLES]
-**Du benötigst{{!
+**Du benötigst {{!
 	args.roles.split(', ').length > 1
-		? 'eine der folgenden Rollen, um diesen Befehl auszuführen'
+		? 'mindestens eine der folgenden Rollen um diesen Befehl auszuführen'
 		: 'um diesen Befehl auszuführen, die Rolle'
-!}} :**
+!}}:**
 ```css
 {{ roles }}
 ```

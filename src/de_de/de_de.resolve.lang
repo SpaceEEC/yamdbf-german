@@ -2,11 +2,11 @@
 {{!
 	switch (args.type)
 	{
-		case 'User': return 'nutzer';
-		case 'Member': return 'member';
-		case 'BannedUser': return 'gebannter nutzer';
-		case 'Channel': return 'channel';
-		case 'Role': return 'rolle';
+		case 'User': return 'Nutzer';
+		case 'Member': return 'Member';
+		case 'BannedUser': return 'gebannter Nutzer';
+		case 'Channel': return 'Channel';
+		case 'Role': return 'Rolle';
 		default: return;
 	}
 !}}
@@ -21,7 +21,7 @@ Gebrauch: `{{ usage }}`
 Ein Beispiel für ein Dauer Argument: `10m`, `2h`, `1.5d`
 
 [RESOLVE_ERR_RESOLVE_TYPE_ID]
-In Argument `{{ name }}`: Konnte keine(n) {{! res('RESOLVE_TYPE', args) !}} mit der ID `{{ arg }}` finden.
+In Argument `{{ name }}`: Konnte keine(n) {{! res('RESOLVE_TYPE') !}} mit der ID `{{ arg }}` finden.
 Gebrauch: `{{ usage }}`
 
 [RESOLVE_ERR_RESOLVE_TYPE_TEXT]
