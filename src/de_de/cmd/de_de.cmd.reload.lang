@@ -6,4 +6,4 @@ Konnte den Befehl "{{ commandName }}" nicht finden.
 	args.commandName ? 
 		`Befehl "${args.commandName}"` :
 		'Befehle'
-!}} reloaded. ({{ time }} ms)
+!}} neu geladen. ({{ time }} ms)
