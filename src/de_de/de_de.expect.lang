@@ -4,11 +4,11 @@ Fehlender oder null Wert für: `{{ name }}`{{!
 		? `\nErwartete einen aus: ${args.type}`
 		: `, erwartete ${args.type}`
 !}}.
-Gebrauch: `{{ usage }}`
+Anwendung: `{{ usage }}`
 
 [EXPECT_ERR_INVALID_OPTION]
 In Argument `{{ name }}`: `{{ arg }}` ist keine gültige Option.
-Gebrauch: `{{ usage }}`
+Anwendung: `{{ usage }}`
 Gültige Optionen für `{{ name }}` sind: {{ type }}.
 
 [EXPECT_ERR_EXPECTED_TYPE]

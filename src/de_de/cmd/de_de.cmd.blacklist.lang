@@ -8,7 +8,7 @@ Bots können keine Befehle ausführen und somit auch nicht auf die Blacklist ges
 Nur der/die Besitzer können Nutzer auf die globale Blacklist setzen.
 
 [CMD_BLACKLIST_ERR_ALREADYGLOBAL]
-Dieser nutzer ist bereits auf der globalen Blacklist.
+Dieser Nutzer ist bereits auf der globalen Blacklist.
 
 [CMD_BLACKLIST_ERR_BADTARGET]
 Du kannst diesen Nutzer nicht auf die Blacklist setzen.

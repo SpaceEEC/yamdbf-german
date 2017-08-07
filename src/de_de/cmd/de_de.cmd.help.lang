@@ -23,7 +23,7 @@ Es wurde entweder kein Befehl mit diesem Namen gefunden oder du bist nicht berec
 Befehl: {{ commandName }}
 Beschreibung: {{ desc }}
 {{ aliasText ?}}
-Gebrauch: {{ usage }}
+Anwendung: {{ usage }}
 {{ info ?}}
 ```
 
