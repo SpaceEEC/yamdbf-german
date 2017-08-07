@@ -21,3 +21,18 @@ Der Nutzer {{ user }} wurde auf die globale Blacklist gesetzt.
 
 [CMD_BLACKLIST_SUCCESS]
 Der Nutzer {{ user }} wurde auf die serverweite Blacklist gesetzt.
+
+[CMD_WHITELIST_ERR_OWNERONLY]
+Nur der/die Besitzer des Bots können Nutzer von der global Blacklist entfernen.
+
+[CMD_WHITELIST_ERR_NOTGLOBAL]
+Dieser Nutzer befindet sich nicht auf der globalen Blacklist.
+
+[CMD_WHITELIST_ERR_NOTBLACKLISTED]
+Dieser Nutzer ist nicht auf der serverweiten Blacklist.
+
+[CMD_WHITELIST_GLOBALSUCCESS]
+Der Nutzer `{{ user }}` wurde von der global Blacklist entfernt.
+
+[CMD_WHITELIST_SUCCESS]
+Der Nutzer `{{ user }}` wurde vonder serverweitern Blacklist enfternt.

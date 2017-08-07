@@ -2,14 +2,8 @@
 	"blacklist": {
 		"de_de": {
 			"desc": "Setzt einen Nutzer auf die globale Blacklist, wodurch dieser Nutzer keine Befehle mehr verwenden kann",
-			"usage": "<prefix>blacklist <nutzer> ['global']",
+			"usage": "<prefix>blacklist <'add' | 'remove'> <nutzer> ['global']",
 			"info": "Falls global, wird statt der serverweiten Blacklist die globale verwendet."
-		}
-	},
-	"whitelist": {
-		"de_de": {
-			"desc": "Entfernt einen Nutzer von der Blacklist, wodurch dieser wieder Befehle verwenden kann",
-			"usage": "<prefix>whitelist <nutzer> ['global']"
 		}
 	},
 	"eval": {
