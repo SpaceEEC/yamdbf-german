@@ -21,7 +21,7 @@ Es gibt keine Befehlsgruppe "{{ group }}".
 [CMD_GROUPS_ERR_ENABLED]
 Die Befehlsgruppe "{{ group }}" ist bereits aktiv.
 
-[CMD_GROUPS_ENABLED_SUCCESS]
+[CMD_GROUPS_ENABLE_SUCCESS]
 **Die Befehlsgruppe "{{ group }}" ist jetzt wieder aktiv**
 
 [CMD_GROUPS_ERR_DISABLED]
