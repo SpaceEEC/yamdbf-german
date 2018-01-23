@@ -4,6 +4,9 @@ Du hast zu viele Befehle in zu kurzer Zeit verwendet, warte bitte **{{ time }}**
 [DISPATCHER_ERR_RATELIMIT_EXCEED]
 Du hast diesen Befehl zu oft in zu kurzer Zeit verwendet, warte bitte **{{ time }}** bevor du es erneut versuchst.
 
+[DISPATCHER_ERR_INVALID_SHORTCUT]
+Fehler: Der Shortcut **"{{ name }}"** kann zu keinem gültigen Befehl aufgelöst werden.
+
 [DISPATCHER_ERR_UNKNOWN_COMMAND]
 Ich konnte deiner Nachricht keinen Befehl zuordnern.
 Versuche über den "help" Befehl eine Liste aller Befehle zu bekommen.

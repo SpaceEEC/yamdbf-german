@@ -25,32 +25,11 @@
 			"usage": "<prefix>clearlimit <befehl>"
 		}
 	},
-	"disablegroup": {
-		"de_de": {
-			"desc": "Deaktiviert eine Befehlsgruppe",
-			"usage": "<prefix>disablegroup <gruppe>",
-			"info": "Deaktiviert eine Befehlsgruppe, wodurch diese Befehle nicht mehr auf diesem Server verwendet werden können."
-		}
-	},
-	"enablegroup": {
-		"de_de": {
-			"desc": "Aktiviert eine Befehlsgruppe",
-			"usage": "<prefix>enablegroup <gruppe>",
-			"info": "Aktiviert eine Gruppe von Befehle, wodurch diese Befehle wieder auf diesem Server verwendet werden können."
-		}
-	},
 	"limit": {
 		"de_de": {
 			"desc": "Beschränkt einen Befehl auf die beiligenden Rollen",
 			"usage": "<prefix>limit <befehl>, <rollennamen, ...>",
 			"info": "Das Komma nach dem Namen des Befehls -- vor der Liste der Rollennamen -- ist zwingend erforderlich."
-		}
-	},
-	"listgroups": {
-		"de_de": {
-			"desc": "Listet alle Gruppen von Befehlen und deren Status auf",
-			"usage": "<prefix>listgroups",
-			"info": "Ein '*' signalisiert, dass die Gruppe deaktiviert ist."
 		}
 	},
 	"help": {
@@ -76,15 +55,29 @@
 	},
 	"setlang": {
 		"de_de": {
-			"desc": "Listed alle verfügbaren Sprachen auf, oder legt eine neue fest",
+			"desc": "Listet alle verfügbaren Sprachen auf, oder legt eine neue fest",
 			"usage": "<prefix>setlang [sprache]"
 		}
 	},
 	"setprefix": {
 		"de_de": {
-			"desc": "Ruft den aktuellen Prefix ab, oder legt diesen fest.",
+			"desc": "Ruft den aktuellen Prefix ab, oder legt diesen fest",
 			"usage": "<prefix>setprefix [prefix]",
 			"info": "Prefixe müssen 1-10 Zeichen lang sein und dürfen keine Backslashes oder Backticks beinhalten. Nutze \"clear\" um den Prefix komplett zu entfernen, wodurch Befehle ohne einen Prefix verwendet werden können."
+		}
+	},
+	"groups": {
+		"de_de": {
+			"desc": "Konfiguriert oder Zeigt Gruppen an",
+			"usage": "<prefix>group ['enable' | 'on' | 'disable' | 'off'] [...gruppe]",
+			"info": "Ein '*' zeigtt an, dass eine Gruppe deaktiviert ist."
+		}
+	},
+	"shortcuts": {
+		"de_de": {
+			"desc": "Konfiguriert oder zeit verfügbare Shortcuts an",
+			"usage": "<prefix>shortcuts ['get'|'set'|'remove'] [name] [...inhalt]",
+			"info": "Shortcuts erlauben es befehl+argument Sets vorzukonfigurieren."
 		}
 	}
 }

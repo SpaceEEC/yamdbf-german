@@ -1,4 +1,5 @@
 import { join } from 'path';
+// tslint:disable-next-line:no-implicit-dependencies
 import { Client, IPlugin, Lang, Logger, Plugin } from 'yamdbf';
 
 export class GermanPlugin extends Plugin implements IPlugin
@@ -22,5 +23,6 @@ export class GermanPlugin extends Plugin implements IPlugin
 		Lang.setMetaValue('de_de', 'name', 'Deutsch');
 		Lang.loadLocalizationsFrom(dir);
 		Lang.loadCommandLocalizationsFrom(dir);
+		Lang.loadGroupLocalizationsFrom(dir);
 	}
 }

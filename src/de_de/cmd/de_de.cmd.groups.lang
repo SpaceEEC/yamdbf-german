@@ -1,0 +1,31 @@
+[CMD_GROUPS_LIST]
+**Befehlsgruppen:** (Gruppen markiert mit einen ***** sind deaktiviert)
+```ldif
+{{!
+	const groups = args.groups.split(', ');
+	const info = args.info.split('::::');
+	const disabled = args.disabledGroups.split(', ');
+	const widest = groups.reduce((a, b) => Math.max(a , b.length), 0);
+	const combined = [];
+	for (let i = 0; i < groups.length; ++i) combined.push([groups[i], info[i]]);
+
+	return combined
+		.map(c => `${c[0].padEnd(widest)}${disabled.includes(c[0]) ? '*' : ' '}: ${c[1]}`)
+		.join('\n');
+!}}
+```
+
+[CMD_GROUPS_ERR_NOEXIST]
+Es gibt keine Befehlsgruppe "{{ group }}".
+
+[CMD_GROUPS_ERR_ENABLED]
+Die Befehlsgruppe "{{ group }}" ist bereits aktiv.
+
+[CMD_GROUPS_ENABLED_SUCCESS]
+**Die Befehlsgruppe "{{ group }}" ist jetzt wieder aktiv**
+
+[CMD_GROUPS_ERR_DISABLED]
+Die Befehlsgruppe "{{ gruppe }}" ist entweder deaktiviert oder kann nicht deaktiviert werden.
+
+[CMD_GROUPS_DISABLE_SUCCESS]
+**Die Befehlsgruppe "{{ group }}" ist jetzt deaktiviert**

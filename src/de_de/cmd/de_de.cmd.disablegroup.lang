@@ -1,8 +1,0 @@
-[CMD_DISABLEGROUP_ERR_NOEXIST]
-Konnte die Befehlsgruppe "{{ group }}" nicht finden.
-
-[CMD_DISABLEGROUP_ERR_DISABLED]
-Die Befehlsgruppe "{{ group }}" is bereits deaktiviert oder ist nicht deaktivierbar.
-
-[CMD_DISABLEGROUP_SUCCESS]
-**Habe die Befehlsgruppe "{{ group }}" deaktiviert.**
