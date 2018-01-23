@@ -25,7 +25,7 @@ Die Befehlsgruppe "{{ group }}" ist bereits aktiv.
 **Die Befehlsgruppe "{{ group }}" ist jetzt wieder aktiv**
 
 [CMD_GROUPS_ERR_DISABLED]
-Die Befehlsgruppe "{{ gruppe }}" ist entweder deaktiviert oder kann nicht deaktiviert werden.
+Die Befehlsgruppe "{{ group }}" ist entweder deaktiviert oder kann nicht deaktiviert werden.
 
 [CMD_GROUPS_DISABLE_SUCCESS]
 **Die Befehlsgruppe "{{ group }}" ist jetzt deaktiviert**
